@@ -101,6 +101,7 @@
         android:layout_alignLeft="@+id/button3"
         android:layout_alignStart="@+id/button3" />
 
+<<<<<<< HEAD
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -113,5 +114,7 @@
         android:layout_alignEnd="@+id/textView2"
         android:textSize="25dp" />
 
+=======
+>>>>>>> c1f79c4bf3937f1499e47ffe1c748161267937cc
 
 </RelativeLayout>
