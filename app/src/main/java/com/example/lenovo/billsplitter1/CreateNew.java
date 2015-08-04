@@ -146,8 +146,17 @@ public class CreateNew extends Activity {
         startActivity(Intent.createChooser(email, "Choose an Email client :"));
     }
 
+    public void fgd(View view) {
+        Intent intent = new Intent(this, Friends.class);
+        //intent.putExtra("Amount",Integer.parseInt(TotalAmount.getText().toString()));
+        startActivity(intent);
+
+    }
+
     public void SendMail(View view) {
     }
+
+
 }
 
 

@@ -112,6 +112,13 @@ public class DatabaseOperations extends SQLiteOpenHelper {
         cr= SQ.query(BILL_TABLE, allBillColumns,null, null, null, null, null);
         return cr;
     }
+    public Cursor GetAllFriendInformation() {//cursor is used here its wrong
+        Cursor cr = null;
+        SQLiteDatabase SQ = this.getReadableDatabase();
+        cr= SQ.query(FRIENDS_TABLE, allFriendsColumns,null, null, null, null, null);
+        return cr;
+    }
+
 
     //getting Bill Info accourding to billnumber
     public Cursor GetBillInformation(int billnumber) {//cursor is used here its wrong
