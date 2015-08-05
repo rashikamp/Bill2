@@ -36,7 +36,7 @@
         android:layout_alignParentRight="true"
         android:layout_toRightOf="@id/id"
         android:layout_marginBottom="5dip"
-        android:text="ssh@gmail.com" />
+        android:text="ssshh@gmail.com" />
 
     <TextView
         android:id="@+id/percent"
@@ -48,6 +48,6 @@
         android:layout_centerInParent="true"
         android:gravity="center"
         android:textStyle="bold"
-        android:text="50%"/>
+        android:text="50 %"/>
 
 </RelativeLayout>
